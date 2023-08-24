@@ -1,0 +1,106 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&family=Secular+One&family=Sedgwick+Ave+Display&display=swap');
+*{
+    margin: 0;padding: 0;
+}
+nav{
+    width: 100vw;
+    height: 8vh;
+    background-color: rgb(141, 243, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Secular One', sans-serif;
+    font-size: 27px;
+}
+
+.main{
+    display: flex;
+    justify-content: center
+}
+
+.boxes{
+    width: 50vh;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 20vh;
+    margin-left: 12vw;
+}
+
+.box{
+    border:2px solid black;
+}
+
+
+#box1{
+    border-top: 0;
+    border-left: 0;
+}
+#box2{
+    border-top: 0;
+}
+
+#box3{
+    border-top: 0;
+    border-right: 0;
+}
+
+#box4{
+    border-left: 0;
+}
+
+#box6{
+    border-right: 0;
+}
+#box7{
+    border-left: 0;
+    border-bottom: 0;
+}
+#box8{
+    border-bottom: 0;
+}
+#box9{
+    border-bottom: 0;
+    border-right: 0;
+}
+
+.text{
+    font-size: 12vh;
+}
+#btn {
+    background-color: rgb(201, 194, 186);
+    width: 100px; 
+    height: 40px; 
+    position: relative;
+    right: -10vw;
+    border-radius: 10px;
+    top : 5vh
+  }
+
+.box h1{
+font-size: 100px;
+margin-left: 32px;
+
+}
+
+.turn{
+    margin-top: 20vh;
+}
+
+img{
+    width: 20vw;
+    height: 20vh;
+}
+
+
+
+/* .line{
+    width: 10px;
+    background-color: black;
+    position: relative;
+    top: 18vh;
+    right: 20vw;
+    transform: rotate(137deg);
+    height: 55vh;
+} */
